@@ -1,7 +1,7 @@
 {
   "year": "2027",
   "count": 118,
-  "generated_at": "2026-11-07T10:45:04+00:00",
+  "generated_at": "2026-11-08T10:50:22+00:00",
   "events": [
     {
       "uid": "13685",
@@ -1515,11 +1515,11 @@
       "code": "SOM",
       "name": "Schweizer Staffel-OL Meisterschaft",
       "organizer": "OLG Biberist / Solothurn",
-      "location": "Pfaffenweiher",
+      "location": "Pfaffenweier",
       "distance": "M",
       "terrain": "wald",
-      "lat": 47.221073150634766,
-      "lon": 7.901814937591553,
+      "lat": 47.210166931152344,
+      "lon": 7.640264511108398,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13389"
     },
