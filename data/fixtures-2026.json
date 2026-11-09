@@ -1,7 +1,7 @@
 {
   "year": "2026",
-  "count": 196,
-  "generated_at": "2026-11-08T10:50:22+00:00",
+  "count": 197,
+  "generated_at": "2026-11-09T12:15:52+00:00",
   "events": [
     {
       "uid": "13356",
@@ -3106,6 +3106,22 @@
       "lon": 8.465655326843262,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13697"
+    },
+    {
+      "uid": "13793",
+      "date": "2026-12-20",
+      "weekday": "So",
+      "region": "BE/SO",
+      "code": "",
+      "name": "Heiliger Morgen Sprint",
+      "organizer": "Niggli Events",
+      "location": "Bern Neufeld",
+      "distance": "S",
+      "terrain": "mix",
+      "lat": 46.963436126708984,
+      "lon": 7.42763614654541,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13793"
     },
     {
       "uid": "13693",

@@ -1,7 +1,7 @@
 {
   "year": "2027",
-  "count": 118,
-  "generated_at": "2026-11-08T10:50:22+00:00",
+  "count": 119,
+  "generated_at": "2026-11-09T12:15:52+00:00",
   "events": [
     {
       "uid": "13685",
@@ -36,22 +36,6 @@
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13664"
     },
     {
-      "uid": "13422",
-      "date": "2027-01-16",
-      "weekday": "Sa",
-      "region": "BE/SO",
-      "code": "S",
-      "name": "Metsässä 10",
-      "organizer": "Niggli Events / ol norska",
-      "location": "Hürnberg",
-      "distance": "M",
-      "terrain": "wald",
-      "lat": 46.889808654785156,
-      "lon": 7.599303245544434,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13422"
-    },
-    {
       "uid": "13735",
       "date": "2027-01-16",
       "weekday": "Sa",
@@ -66,6 +50,22 @@
       "lon": 7.911274535606269,
       "coord_source": "exact",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13735"
+    },
+    {
+      "uid": "13422",
+      "date": "2027-01-16",
+      "weekday": "Sa",
+      "region": "BE/SO",
+      "code": "S",
+      "name": "Metsässä 10",
+      "organizer": "Niggli Events / ol norska",
+      "location": "Utzigenwull",
+      "distance": "M",
+      "terrain": "wald",
+      "lat": 46.961143493652344,
+      "lon": 7.564486026763916,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13422"
     },
     {
       "uid": "13566",
@@ -180,6 +180,22 @@
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13563"
     },
     {
+      "uid": "13798",
+      "date": "2027-02-27",
+      "weekday": "Sa",
+      "region": "BE/SO",
+      "code": "",
+      "name": "Biberister Nacht OL",
+      "organizer": "OLG Biberist",
+      "location": "Leewald",
+      "distance": "M",
+      "terrain": "wald",
+      "lat": 46.932613372802734,
+      "lon": 7.816584587097168,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13798"
+    },
+    {
       "uid": "13434",
       "date": "2027-02-28",
       "weekday": "So",
@@ -244,22 +260,6 @@
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13703"
     },
     {
-      "uid": "13432",
-      "date": "2027-03-06",
-      "weekday": "Sa",
-      "region": "BE/SO",
-      "code": "*",
-      "name": "Burgdorfer Nacht OL",
-      "organizer": "OL Regio Burgdorf",
-      "location": "Etzelkofen-Grafenried",
-      "distance": "",
-      "terrain": "wald",
-      "lat": 47.0836296081543,
-      "lon": 7.479318141937256,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13432"
-    },
-    {
       "uid": "13548",
       "date": "2027-03-06",
       "weekday": "Sa",
@@ -274,6 +274,38 @@
       "lon": 8.282931556762778,
       "coord_source": "exact",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13548"
+    },
+    {
+      "uid": "13432",
+      "date": "2027-03-06",
+      "weekday": "Sa",
+      "region": "BE/SO",
+      "code": "",
+      "name": "Burgdorfer Nacht OL",
+      "organizer": "OL Regio Burgdorf",
+      "location": "Etzelkofen-Grafenried",
+      "distance": "M",
+      "terrain": "wald",
+      "lat": 47.0836296081543,
+      "lon": 7.479318141937256,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13432"
+    },
+    {
+      "uid": "13711",
+      "date": "2027-03-06",
+      "weekday": "Sa",
+      "region": "TI",
+      "code": "",
+      "name": "1. TMO CO UTOE Sprint Biasca",
+      "organizer": "CO UTOE Bellinzona",
+      "location": "Biasca",
+      "distance": "S",
+      "terrain": "stadt",
+      "lat": 46.362525939941406,
+      "lon": 9.027430534362793,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13711"
     },
     {
       "uid": "13433",
@@ -292,36 +324,20 @@
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13433"
     },
     {
-      "uid": "13711",
+      "uid": "13712",
       "date": "2027-03-07",
       "weekday": "So",
       "region": "TI",
       "code": "",
-      "name": "1. TMO CO UTOE Sprint Biasca",
-      "organizer": "CO UTOE Bellinzona",
-      "location": "Biasca",
-      "distance": "S",
-      "terrain": "stadt",
-      "lat": 46.362525939941406,
-      "lon": 9.027430534362793,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13711"
-    },
-    {
-      "uid": "13436",
-      "date": "2027-03-13",
-      "weekday": "Sa",
-      "region": "BE/SO",
-      "code": "*",
-      "name": "Hondricher Nacht OL",
-      "organizer": "OLG Hondrich",
-      "location": "Ballenberg",
+      "name": "2. TMO GOV Middle Aurigeno",
+      "organizer": "GOV Vallemaggia",
+      "location": "Aurigeno",
       "distance": "M",
       "terrain": "wald",
-      "lat": 46.7480583190918,
-      "lon": 8.078795433044434,
+      "lat": 46.230037689208984,
+      "lon": 8.714423179626465,
       "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13436"
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13712"
     },
     {
       "uid": "13504",
@@ -338,6 +354,22 @@
       "lon": 8.280460357666016,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13504"
+    },
+    {
+      "uid": "13436",
+      "date": "2027-03-13",
+      "weekday": "Sa",
+      "region": "BE/SO",
+      "code": "",
+      "name": "Hondricher Nacht OL",
+      "organizer": "OLG Hondrich",
+      "location": "Ballenberg",
+      "distance": "M",
+      "terrain": "wald",
+      "lat": 46.7480583190918,
+      "lon": 8.078795433044434,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13436"
     },
     {
       "uid": "13435",
@@ -386,22 +418,6 @@
       "lon": 8.755481719970703,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13659"
-    },
-    {
-      "uid": "13712",
-      "date": "2027-03-14",
-      "weekday": "So",
-      "region": "TI",
-      "code": "",
-      "name": "2. TMO GOV Middle Aurigeno",
-      "organizer": "GOV Vallemaggia",
-      "location": "Aurigeno",
-      "distance": "M",
-      "terrain": "wald",
-      "lat": 46.230037689208984,
-      "lon": 8.714423179626465,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13712"
     },
     {
       "uid": "13383",
@@ -708,22 +724,6 @@
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13739"
     },
     {
-      "uid": "13716",
-      "date": "2027-05-02",
-      "weekday": "So",
-      "region": "TI",
-      "code": "",
-      "name": "5. TMO ASCO Long Cimadera",
-      "organizer": "ASCO Lugano",
-      "location": "Cimadera",
-      "distance": "L",
-      "terrain": "wald",
-      "lat": 46.079097747802734,
-      "lon": 9.046473503112793,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13716"
-    },
-    {
       "uid": "13745",
       "date": "2027-05-02",
       "weekday": "So",
@@ -738,6 +738,22 @@
       "lon": 7.161778926849365,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13745"
+    },
+    {
+      "uid": "13716",
+      "date": "2027-05-02",
+      "weekday": "So",
+      "region": "TI",
+      "code": "",
+      "name": "5. TMO ASCO Long Isone Nord",
+      "organizer": "ASCO Lugano",
+      "location": "Cimadera",
+      "distance": "L",
+      "terrain": "wald",
+      "lat": 46.079097747802734,
+      "lon": 9.046473503112793,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13716"
     },
     {
       "uid": "13660",
@@ -827,11 +843,11 @@
       "code": "",
       "name": "6. TMO CO AGET KO Sprint",
       "organizer": "CO AGET Lugano",
-      "location": "Giubiasco, Sementina, Monte",
+      "location": "Giubiasco, Monte Carasso",
       "distance": "S",
       "terrain": "stadt",
-      "lat": 46.196441650390625,
-      "lon": 8.960406303405762,
+      "lat": 46.18804168701172,
+      "lon": 8.999231338500977,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13717"
     },
@@ -1672,7 +1688,7 @@
       "date": "2027-10-16",
       "weekday": "Sa",
       "region": "BE/SO",
-      "code": "*",
+      "code": "",
       "name": "Oberaargauer Nacht OL",
       "organizer": "OL Oberaargau",
       "location": "Steinenberg",
@@ -1705,7 +1721,7 @@
       "weekday": "So",
       "region": "TI",
       "code": "",
-      "name": "11. TMO GOLD CT Middle Sonvico_Villa",
+      "name": "11. TMO GOLD CT Middle Sonvico-Villa",
       "organizer": "GOLD Savosa",
       "location": "Sonvico-Villa",
       "distance": "M",
