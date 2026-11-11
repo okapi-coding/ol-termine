@@ -1,7 +1,7 @@
 {
   "year": "2027",
-  "count": 119,
-  "generated_at": "2026-11-10T11:55:00+00:00",
+  "count": 125,
+  "generated_at": "2026-11-11T11:31:39+00:00",
   "events": [
     {
       "uid": "13685",
@@ -306,6 +306,22 @@
       "lon": 9.027430534362793,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13711"
+    },
+    {
+      "uid": "13804",
+      "date": "2027-03-06",
+      "weekday": "Sa",
+      "region": "NOS",
+      "code": "Adm",
+      "name": "49. Delegiertenversammlung",
+      "organizer": "Swiss-Orienteering",
+      "location": "Weinfelden",
+      "distance": "",
+      "terrain": "unbekannt",
+      "lat": 47.56858444213867,
+      "lon": 9.105485916137695,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13804"
     },
     {
       "uid": "13433",
@@ -1892,6 +1908,38 @@
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13731"
     },
     {
+      "uid": "13807",
+      "date": "2027-11-06",
+      "weekday": "Sa",
+      "region": "BE/SO",
+      "code": "Adm",
+      "name": "Präsidiumskonferenz",
+      "organizer": "Swiss-Orienteering",
+      "location": "Olten",
+      "distance": "",
+      "terrain": "unbekannt",
+      "lat": 47.339988708496094,
+      "lon": 7.893518447875977,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13807"
+    },
+    {
+      "uid": "13809",
+      "date": "2027-11-13",
+      "weekday": "Sa",
+      "region": "BE/SO",
+      "code": "Adm",
+      "name": "O-Fest",
+      "organizer": "Swiss-Orienteering",
+      "location": "Tbd",
+      "distance": "",
+      "terrain": "unbekannt",
+      "lat": null,
+      "lon": null,
+      "coord_source": null,
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13809"
+    },
+    {
       "uid": "13396",
       "date": "2027-11-14",
       "weekday": "So",
@@ -1906,6 +1954,54 @@
       "lon": 8.836138725280762,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13396"
+    },
+    {
+      "uid": "13810",
+      "date": "2027-11-19",
+      "weekday": "Fr",
+      "region": "BE/SO",
+      "code": "Adm",
+      "name": "Zentralkurs",
+      "organizer": "Swiss-Orienteering",
+      "location": "Tbd",
+      "distance": "",
+      "terrain": "unbekannt",
+      "lat": null,
+      "lon": null,
+      "coord_source": null,
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13810"
+    },
+    {
+      "uid": "13811",
+      "date": "2027-11-20",
+      "weekday": "Sa",
+      "region": "BE/SO",
+      "code": "Adm",
+      "name": "Zentralkurs",
+      "organizer": "Swiss-Orienteering",
+      "location": "Tbd",
+      "distance": "",
+      "terrain": "unbekannt",
+      "lat": null,
+      "lon": null,
+      "coord_source": null,
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13811"
+    },
+    {
+      "uid": "13812",
+      "date": "2027-11-27",
+      "weekday": "Sa",
+      "region": "GL/GR",
+      "code": "Adm",
+      "name": "Veranstaltertagung",
+      "organizer": "Swiss-Orienteering",
+      "location": "Olten",
+      "distance": "",
+      "terrain": "unbekannt",
+      "lat": null,
+      "lon": null,
+      "coord_source": null,
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13812"
     }
   ]
 }

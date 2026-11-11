@@ -1,8 +1,24 @@
 {
   "year": "2028",
-  "count": 30,
-  "generated_at": "2026-11-10T11:55:00+00:00",
+  "count": 40,
+  "generated_at": "2026-11-11T11:31:39+00:00",
   "events": [
+    {
+      "uid": "13813",
+      "date": "2028-01-14",
+      "weekday": "Fr",
+      "region": "BE/SO",
+      "code": "Adm",
+      "name": "Kärteler-Tagung",
+      "organizer": "Swiss-Orienteering",
+      "location": "Tbd",
+      "distance": "",
+      "terrain": "unbekannt",
+      "lat": null,
+      "lon": null,
+      "coord_source": null,
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13813"
+    },
     {
       "uid": "13782",
       "date": "2028-01-22",
@@ -34,6 +50,22 @@
       "lon": 7.536828994750977,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13783"
+    },
+    {
+      "uid": "13814",
+      "date": "2028-03-04",
+      "weekday": "Sa",
+      "region": "ZH/SH",
+      "code": "Adm",
+      "name": "50. Delegiertenversammlung",
+      "organizer": "Swiss-Orienteering",
+      "location": "Winterthur",
+      "distance": "",
+      "terrain": "unbekannt",
+      "lat": 47.49905014038086,
+      "lon": 8.720227241516113,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13814"
     },
     {
       "uid": "13759",
@@ -324,6 +356,22 @@
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13758"
     },
     {
+      "uid": "13821",
+      "date": "2028-08-11",
+      "weekday": "Fr",
+      "region": "AG",
+      "code": "M",
+      "name": "Aargauer 3-Tage-OL Etappe 1",
+      "organizer": "bussola ok / OLK Piz Hasi",
+      "location": "Berikon (urban)",
+      "distance": "S",
+      "terrain": "stadt",
+      "lat": 47.35304641723633,
+      "lon": 8.386956214904785,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13821"
+    },
+    {
       "uid": "13790",
       "date": "2028-08-12",
       "weekday": "Sa",
@@ -340,6 +388,22 @@
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13790"
     },
     {
+      "uid": "13822",
+      "date": "2028-08-12",
+      "weekday": "Sa",
+      "region": "AG",
+      "code": "M",
+      "name": "Aargauer 3-Tage-OL Etappe 2",
+      "organizer": "bussola ok / OLK Piz Hasi",
+      "location": "Honeret",
+      "distance": "M",
+      "terrain": "wald",
+      "lat": 47.37753677368164,
+      "lon": 8.404751777648926,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13822"
+    },
+    {
       "uid": "13791",
       "date": "2028-08-13",
       "weekday": "So",
@@ -354,6 +418,22 @@
       "lon": 8.041796684265137,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13791"
+    },
+    {
+      "uid": "13823",
+      "date": "2028-08-13",
+      "weekday": "So",
+      "region": "AG",
+      "code": "M",
+      "name": "Aargauer 3-Tage-OL Etappe 3",
+      "organizer": "bussola ok / OLK Piz Hasi",
+      "location": "Hasenberg (Jagdstart)",
+      "distance": "L",
+      "terrain": "wald",
+      "lat": 47.26441955566406,
+      "lon": 8.258247375488281,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13823"
     },
     {
       "uid": "13768",
@@ -482,6 +562,86 @@
       "lon": 7.495543003082275,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13785"
+    },
+    {
+      "uid": "13815",
+      "date": "2028-11-04",
+      "weekday": "Sa",
+      "region": "BE/SO",
+      "code": "Adm",
+      "name": "Präsidiumskonferenz",
+      "organizer": "Swiss-Orienteering",
+      "location": "Tbd",
+      "distance": "",
+      "terrain": "unbekannt",
+      "lat": null,
+      "lon": null,
+      "coord_source": null,
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13815"
+    },
+    {
+      "uid": "13816",
+      "date": "2028-11-11",
+      "weekday": "Sa",
+      "region": "BE/SO",
+      "code": "Adm",
+      "name": "O-Fest",
+      "organizer": "Swiss-Orienteering",
+      "location": "Tbd",
+      "distance": "",
+      "terrain": "unbekannt",
+      "lat": null,
+      "lon": null,
+      "coord_source": null,
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13816"
+    },
+    {
+      "uid": "13817",
+      "date": "2028-11-17",
+      "weekday": "Fr",
+      "region": "BE/SO",
+      "code": "Adm",
+      "name": "Zentralkurs",
+      "organizer": "Swiss-Orienteering",
+      "location": "Tbd",
+      "distance": "",
+      "terrain": "unbekannt",
+      "lat": null,
+      "lon": null,
+      "coord_source": null,
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13817"
+    },
+    {
+      "uid": "13818",
+      "date": "2028-11-18",
+      "weekday": "Sa",
+      "region": "BE/SO",
+      "code": "Adm",
+      "name": "Zentralkurs",
+      "organizer": "Swiss-Orienteering",
+      "location": "Tbd",
+      "distance": "",
+      "terrain": "unbekannt",
+      "lat": null,
+      "lon": null,
+      "coord_source": null,
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13818"
+    },
+    {
+      "uid": "13819",
+      "date": "2028-11-25",
+      "weekday": "Sa",
+      "region": "BE/SO",
+      "code": "Adm",
+      "name": "Veranstaltertagung",
+      "organizer": "Swiss-Orienteering",
+      "location": "Olten",
+      "distance": "",
+      "terrain": "unbekannt",
+      "lat": 47.339988708496094,
+      "lon": 7.893518447875977,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13819"
     }
   ]
 }
