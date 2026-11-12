@@ -1,7 +1,7 @@
 {
   "year": "2027",
-  "count": 125,
-  "generated_at": "2026-11-11T11:31:39+00:00",
+  "count": 129,
+  "generated_at": "2026-11-12T11:57:28+00:00",
   "events": [
     {
       "uid": "13685",
@@ -724,6 +724,22 @@
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13669"
     },
     {
+      "uid": "13824",
+      "date": "2027-04-25",
+      "weekday": "So",
+      "region": "AG",
+      "code": "Adm",
+      "name": "Testlauf Mittel EYOC / JWOC",
+      "organizer": "Swiss-Orienteering",
+      "location": "Saalhöchi",
+      "distance": "M",
+      "terrain": "wald",
+      "lat": 47.44902801513672,
+      "lon": 8.814905166625977,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13824"
+    },
+    {
       "uid": "13739",
       "date": "2027-04-27",
       "weekday": "Di",
@@ -882,6 +898,22 @@
       "lon": 7.276197910308838,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13681"
+    },
+    {
+      "uid": "13825",
+      "date": "2027-05-20",
+      "weekday": "Do",
+      "region": "BE/SO",
+      "code": "Adm",
+      "name": "Testlauf Mittel Elite",
+      "organizer": "Swiss-Orienteering",
+      "location": "Gibelegg",
+      "distance": "M",
+      "terrain": "wald",
+      "lat": 46.765472412109375,
+      "lon": 7.6675262451171875,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13825"
     },
     {
       "uid": "13385",
@@ -1428,6 +1460,22 @@
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13560"
     },
     {
+      "uid": "13826",
+      "date": "2027-09-03",
+      "weekday": "Fr",
+      "region": "BE/SO",
+      "code": "Adm",
+      "name": "Testlauf Sprint - Elite",
+      "organizer": "Swiss-Orienteering",
+      "location": "Münsingen",
+      "distance": "S",
+      "terrain": "stadt",
+      "lat": 46.88322448730469,
+      "lon": 7.565205097198486,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13826"
+    },
+    {
       "uid": "13559",
       "date": "2027-09-04",
       "weekday": "Sa",
@@ -1474,6 +1522,22 @@
       "lon": 7.361003398895264,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13746"
+    },
+    {
+      "uid": "13828",
+      "date": "2027-09-04",
+      "weekday": "Sa",
+      "region": "BE/SO",
+      "code": "Adm",
+      "name": "Testlauf Sprint - Elite",
+      "organizer": "Swiss-Orienteering",
+      "location": "Burgdorf",
+      "distance": "S",
+      "terrain": "stadt",
+      "lat": 47.056617736816406,
+      "lon": 7.617252826690674,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13828"
     },
     {
       "uid": "13662",
