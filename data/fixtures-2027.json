@@ -1,7 +1,7 @@
 {
   "year": "2027",
   "count": 129,
-  "generated_at": "2026-11-12T11:57:28+00:00",
+  "generated_at": "2026-11-13T11:40:19+00:00",
   "events": [
     {
       "uid": "13685",
@@ -126,8 +126,8 @@
       "location": "Universität Irchel",
       "distance": "",
       "terrain": "stadt",
-      "lat": 47.39834635611826,
-      "lon": 8.54618505884005,
+      "lat": 47.39843743156969,
+      "lon": 8.546067721816858,
       "coord_source": "exact",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13690"
     },
