@@ -1,7 +1,7 @@
 {
   "year": "2027",
-  "count": 129,
-  "generated_at": "2026-11-14T11:02:12+00:00",
+  "count": 135,
+  "generated_at": "2026-11-15T11:36:38+00:00",
   "events": [
     {
       "uid": "13685",
@@ -530,6 +530,22 @@
       "lon": 9.089834213256836,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13704"
+    },
+    {
+      "uid": "13850",
+      "date": "2027-04-03",
+      "weekday": "Sa",
+      "region": "BE/SO",
+      "code": "",
+      "name": "White Tigers Retro OL",
+      "organizer": "ol.biel.seeland",
+      "location": "Längholz",
+      "distance": "",
+      "terrain": "wald",
+      "lat": 47.135765075683594,
+      "lon": 7.289216041564941,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13850"
     },
     {
       "uid": "13439",
@@ -1092,6 +1108,22 @@
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13571"
     },
     {
+      "uid": "13852",
+      "date": "2027-06-23",
+      "weekday": "Mi",
+      "region": "BE/SO",
+      "code": "",
+      "name": "1. Berner Abendlauf",
+      "organizer": "ol.biel.seeland",
+      "location": "Schüss",
+      "distance": "S",
+      "terrain": "stadt",
+      "lat": 47.176055908203125,
+      "lon": 7.0665812492370605,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13852"
+    },
+    {
       "uid": "13613",
       "date": "2027-06-24",
       "weekday": "Do",
@@ -1106,6 +1138,22 @@
       "lon": 7.919100284576416,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13613"
+    },
+    {
+      "uid": "13849",
+      "date": "2027-06-30",
+      "weekday": "Mi",
+      "region": "BE/SO",
+      "code": "",
+      "name": "2. Berner Abendlauf",
+      "organizer": "ol norska",
+      "location": "Münsingen",
+      "distance": "S",
+      "terrain": "stadt",
+      "lat": 46.88322448730469,
+      "lon": 7.565205097198486,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13849"
     },
     {
       "uid": "13614",
@@ -1259,13 +1307,29 @@
       "code": "",
       "name": "4. impOLs OL-Cup 2027",
       "organizer": "OL Oberaaargau",
-      "location": "Horben",
+      "location": "Blattenberg",
       "distance": "",
       "terrain": "wald",
-      "lat": 46.906463623046875,
-      "lon": 7.766866683959961,
-      "coord_source": "approx",
+      "lat": null,
+      "lon": null,
+      "coord_source": null,
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13615"
+    },
+    {
+      "uid": "13853",
+      "date": "2027-08-18",
+      "weekday": "Mi",
+      "region": "BE/SO",
+      "code": "",
+      "name": "3. Berner Abendlauf",
+      "organizer": "OLG Bern",
+      "location": "Engehalbinsel",
+      "distance": "",
+      "terrain": "wald",
+      "lat": 46.99012756347656,
+      "lon": 7.450732707977295,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13853"
     },
     {
       "uid": "13617",
@@ -1346,6 +1410,22 @@
       "lon": 7.652399789766889,
       "coord_source": "exact",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13510"
+    },
+    {
+      "uid": "13854",
+      "date": "2027-08-25",
+      "weekday": "Mi",
+      "region": "BE/SO",
+      "code": "",
+      "name": "4. Berner Abendlauf",
+      "organizer": "OL Regio Burgdorf",
+      "location": "Birchi",
+      "distance": "",
+      "terrain": "wald",
+      "lat": 46.79045867919922,
+      "lon": 7.660586833953857,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13854"
     },
     {
       "uid": "13616",
@@ -1458,6 +1538,22 @@
       "lon": 7.763979434967041,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13560"
+    },
+    {
+      "uid": "13856",
+      "date": "2027-09-01",
+      "weekday": "Mi",
+      "region": "BE/SO",
+      "code": "",
+      "name": "5. Berner Abendlauf",
+      "organizer": "OLG Bern",
+      "location": "Winterswil",
+      "distance": "",
+      "terrain": "wald",
+      "lat": 46.95612335205078,
+      "lon": 8.405533790588379,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13856"
     },
     {
       "uid": "13826",

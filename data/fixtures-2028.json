@@ -1,7 +1,7 @@
 {
   "year": "2028",
-  "count": 40,
-  "generated_at": "2026-11-14T11:02:12+00:00",
+  "count": 52,
+  "generated_at": "2026-11-15T11:36:38+00:00",
   "events": [
     {
       "uid": "13813",
@@ -18,6 +18,22 @@
       "lon": null,
       "coord_source": null,
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13813"
+    },
+    {
+      "uid": "13833",
+      "date": "2028-01-15",
+      "weekday": "Sa",
+      "region": "BE/SO",
+      "code": "S",
+      "name": "Metsässe #11",
+      "organizer": "Niggli Events / ol norska",
+      "location": "Hürnberg",
+      "distance": "",
+      "terrain": "wald",
+      "lat": 46.889808654785156,
+      "lon": 7.599303245544434,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13833"
     },
     {
       "uid": "13782",
@@ -66,6 +82,38 @@
       "lon": 8.720227241516113,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13814"
+    },
+    {
+      "uid": "13835",
+      "date": "2028-03-05",
+      "weekday": "So",
+      "region": "BE/SO",
+      "code": "*",
+      "name": "72. Bucheggberger OL",
+      "organizer": "Bucheggberger OL",
+      "location": "Flueli-Eggholz",
+      "distance": "",
+      "terrain": "wald",
+      "lat": 46.84724426269531,
+      "lon": 8.012417793273926,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13835"
+    },
+    {
+      "uid": "13836",
+      "date": "2028-03-12",
+      "weekday": "So",
+      "region": "BE/SO",
+      "code": "*",
+      "name": "67. Hindelbanker OL",
+      "organizer": "OL Regio Burgdorf",
+      "location": "Utzigenwull",
+      "distance": "",
+      "terrain": "wald",
+      "lat": 46.961143493652344,
+      "lon": 7.564486026763916,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13836"
     },
     {
       "uid": "13759",
@@ -132,6 +180,22 @@
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13767"
     },
     {
+      "uid": "13837",
+      "date": "2028-04-02",
+      "weekday": "So",
+      "region": "BE/SO",
+      "code": "*",
+      "name": "57. Berner Einzel OL",
+      "organizer": "OLG Bern",
+      "location": "Forst",
+      "distance": "",
+      "terrain": "wald",
+      "lat": 46.76137924194336,
+      "lon": 7.542206287384033,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13837"
+    },
+    {
       "uid": "13762",
       "date": "2028-04-08",
       "weekday": "Sa",
@@ -162,6 +226,22 @@
       "lon": 7.807295799255371,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13763"
+    },
+    {
+      "uid": "13846",
+      "date": "2028-04-15",
+      "weekday": "Sa",
+      "region": "BE/SO",
+      "code": "S",
+      "name": "49. Osterstaffel",
+      "organizer": "OLG Skandia",
+      "location": "Blasenfluh",
+      "distance": "M",
+      "terrain": "wald",
+      "lat": 46.93202590942383,
+      "lon": 7.696105480194092,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13846"
     },
     {
       "uid": "13779",
@@ -196,6 +276,22 @@
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13780"
     },
     {
+      "uid": "13838",
+      "date": "2028-04-30",
+      "weekday": "So",
+      "region": "BE/SO",
+      "code": "*",
+      "name": "56. Urseller OL",
+      "organizer": "ol norska",
+      "location": "Hürnberg",
+      "distance": "",
+      "terrain": "wald",
+      "lat": 46.889808654785156,
+      "lon": 7.599303245544434,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13838"
+    },
+    {
       "uid": "13781",
       "date": "2028-05-01",
       "weekday": "Mo",
@@ -210,6 +306,22 @@
       "lon": null,
       "coord_source": null,
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13781"
+    },
+    {
+      "uid": "13839",
+      "date": "2028-05-14",
+      "weekday": "So",
+      "region": "BE/SO",
+      "code": "*",
+      "name": "22. biel.seeland ol",
+      "organizer": "ol biel.seeland",
+      "location": "Biel Mett",
+      "distance": "S",
+      "terrain": "stadt",
+      "lat": 47.14767074584961,
+      "lon": 7.276289463043213,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13839"
     },
     {
       "uid": "13764",
@@ -436,6 +548,22 @@
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13823"
     },
     {
+      "uid": "13841",
+      "date": "2028-08-20",
+      "weekday": "So",
+      "region": "BE/SO",
+      "code": "*",
+      "name": "84. Thuner OL",
+      "organizer": "OLG Thun",
+      "location": "Honegg",
+      "distance": "M",
+      "terrain": "wald",
+      "lat": 46.87207794189453,
+      "lon": 8.172464370727539,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13841"
+    },
+    {
       "uid": "13768",
       "date": "2028-09-03",
       "weekday": "So",
@@ -466,6 +594,22 @@
       "lon": 7.495543003082275,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13769"
+    },
+    {
+      "uid": "13840",
+      "date": "2028-09-24",
+      "weekday": "So",
+      "region": "BE/SO",
+      "code": "*",
+      "name": "53. Biberister OL",
+      "organizer": "OLG Biberist",
+      "location": "Corcelles",
+      "distance": "",
+      "terrain": "wald",
+      "lat": 47.29181671142578,
+      "lon": 7.472622394561768,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13840"
     },
     {
       "uid": "13772",
@@ -500,6 +644,22 @@
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13773"
     },
     {
+      "uid": "13844",
+      "date": "2028-10-08",
+      "weekday": "So",
+      "region": "BE/SO",
+      "code": "*",
+      "name": "55. Hondricher OL",
+      "organizer": "OLG Hondrich",
+      "location": "Wiriehorn",
+      "distance": "",
+      "terrain": "wald",
+      "lat": 46.600284576416016,
+      "lon": 7.536192893981934,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13844"
+    },
+    {
       "uid": "13771",
       "date": "2028-10-14",
       "weekday": "Sa",
@@ -514,6 +674,22 @@
       "lon": null,
       "coord_source": null,
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13771"
+    },
+    {
+      "uid": "13845",
+      "date": "2028-10-15",
+      "weekday": "So",
+      "region": "BE/SO",
+      "code": "*",
+      "name": "58. Emmentaler OL",
+      "organizer": "OLG Skandia",
+      "location": "Scheidegg-Horben",
+      "distance": "",
+      "terrain": "wald",
+      "lat": 46.453731536865234,
+      "lon": 7.139216899871826,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13845"
     },
     {
       "uid": "13770",
@@ -642,6 +818,22 @@
       "lon": 7.893518447875977,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13819"
+    },
+    {
+      "uid": "13834",
+      "date": "2028-12-24",
+      "weekday": "So",
+      "region": "BE/SO",
+      "code": "",
+      "name": "Heiliger Morgen Sprint",
+      "organizer": "Niggli Events / OK Bern by Nig Bern",
+      "location": "S 🏠",
+      "distance": "",
+      "terrain": "unbekannt",
+      "lat": null,
+      "lon": null,
+      "coord_source": null,
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13834"
     }
   ]
 }
