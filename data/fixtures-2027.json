@@ -1,7 +1,7 @@
 {
   "year": "2027",
-  "count": 135,
-  "generated_at": "2026-11-15T11:36:38+00:00",
+  "count": 136,
+  "generated_at": "2026-11-16T12:10:06+00:00",
   "events": [
     {
       "uid": "13685",
@@ -130,6 +130,22 @@
       "lon": 8.546067721816858,
       "coord_source": "exact",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13690"
+    },
+    {
+      "uid": "13861",
+      "date": "2027-02-20",
+      "weekday": "Sa",
+      "region": "ZS",
+      "code": "Adm",
+      "name": "Grundkurs Sprint-OL-Karte",
+      "organizer": "Swiss Orienteering FG Karten",
+      "location": "Campus Sursee",
+      "distance": "",
+      "terrain": "unbekannt",
+      "lat": 47.16293092689778,
+      "lon": 8.088644074532573,
+      "coord_source": "exact",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13861"
     },
     {
       "uid": "13587",
@@ -555,7 +571,7 @@
       "code": "*",
       "name": "65. Oberwiler OL",
       "organizer": "OLG Oberwil",
-      "location": "Grabenoele",
+      "location": "Grabenoeli-grosser Stein",
       "distance": "L",
       "terrain": "wald",
       "lat": 47.1273798703212,
