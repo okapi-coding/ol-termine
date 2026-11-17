@@ -1,7 +1,7 @@
 {
   "year": "2027",
   "count": 136,
-  "generated_at": "2026-11-16T12:10:06+00:00",
+  "generated_at": "2026-11-17T12:35:04+00:00",
   "events": [
     {
       "uid": "13685",
@@ -1706,12 +1706,12 @@
       "region": "BE/SO",
       "code": "MOM",
       "name": "Schweizer Mitteldistanz-OL Meisterschaft",
-      "organizer": "OL Norska",
-      "location": "Geisrügge",
+      "organizer": "ol norska",
+      "location": "Geissrügge",
       "distance": "M",
       "terrain": "wald",
-      "lat": 47.22013473510742,
-      "lon": 8.19934368133545,
+      "lat": 47.046531677246094,
+      "lon": 8.452702522277832,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13387"
     },
