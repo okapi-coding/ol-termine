@@ -1,7 +1,7 @@
 {
   "year": "2027",
-  "count": 136,
-  "generated_at": "2026-11-17T12:35:04+00:00",
+  "count": 137,
+  "generated_at": "2026-11-18T12:24:07+00:00",
   "events": [
     {
       "uid": "13685",
@@ -244,22 +244,6 @@
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13719"
     },
     {
-      "uid": "13720",
-      "date": "2027-02-28",
-      "weekday": "So",
-      "region": "TI",
-      "code": "",
-      "name": "1. FRAGORI Gentilino",
-      "organizer": "CO AGET Lugano",
-      "location": "Gentilino",
-      "distance": "S",
-      "terrain": "stadt",
-      "lat": 45.99152374267578,
-      "lon": 8.930952072143555,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13720"
-    },
-    {
       "uid": "13703",
       "date": "2027-02-28",
       "weekday": "So",
@@ -491,11 +475,11 @@
       "code": "S",
       "name": "48. Osterstaffel",
       "organizer": "ol norska",
-      "location": "Hubewald",
+      "location": "Schönenwasen",
       "distance": "",
       "terrain": "wald",
-      "lat": 46.83901596069336,
-      "lon": 7.598446369171143,
+      "lat": 46.917354583740234,
+      "lon": 7.652972221374512,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13437"
     },
@@ -1049,7 +1033,7 @@
       "weekday": "Mi",
       "region": "TI",
       "code": "",
-      "name": "2. FRAGORI",
+      "name": "2. FRAGORI Lugano-Cassarate",
       "organizer": "CO AGET Lugano",
       "location": "Lugano-Cassarate",
       "distance": "S",
@@ -1322,7 +1306,7 @@
       "region": "BE/SO",
       "code": "",
       "name": "4. impOLs OL-Cup 2027",
-      "organizer": "OL Oberaaargau",
+      "organizer": "OL Oberaargau",
       "location": "Blattenberg",
       "distance": "",
       "terrain": "wald",
@@ -1442,6 +1426,22 @@
       "lon": 7.660586833953857,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13854"
+    },
+    {
+      "uid": "13720",
+      "date": "2027-08-25",
+      "weekday": "Mi",
+      "region": "TI",
+      "code": "",
+      "name": "3. FRAGORI Lugaggia-Cagiallo",
+      "organizer": "CO AGET Lugano",
+      "location": "Lugaggia-Cagiallo",
+      "distance": "S",
+      "terrain": "stadt",
+      "lat": 46.05493927001953,
+      "lon": 8.972539901733398,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13720"
     },
     {
       "uid": "13616",
@@ -1650,6 +1650,22 @@
       "lon": 7.617252826690674,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13828"
+    },
+    {
+      "uid": "13868",
+      "date": "2027-09-04",
+      "weekday": "Sa",
+      "region": "BE/SO",
+      "code": "",
+      "name": "Publikumslauf zu Testlauf Elite",
+      "organizer": "OL Regio Burgdorf",
+      "location": "Burgdorf-Gyrischachen",
+      "distance": "S",
+      "terrain": "stadt",
+      "lat": 47.062984466552734,
+      "lon": 7.630765914916992,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13868"
     },
     {
       "uid": "13662",
@@ -2004,22 +2020,6 @@
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13474"
     },
     {
-      "uid": "13424",
-      "date": "2027-10-30",
-      "weekday": "Sa",
-      "region": "BE/SO",
-      "code": "*",
-      "name": "21. biel.seeland OL (Schlusslauf NWM BE/",
-      "organizer": "ol.biel.seeland",
-      "location": "Magglingen",
-      "distance": "S",
-      "terrain": "wald",
-      "lat": 47.140377044677734,
-      "lon": 7.206460952758789,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13424"
-    },
-    {
       "uid": "13576",
       "date": "2027-10-30",
       "weekday": "Sa",
@@ -2036,20 +2036,20 @@
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13576"
     },
     {
-      "uid": "13423",
-      "date": "2027-10-31",
-      "weekday": "So",
+      "uid": "13424",
+      "date": "2027-10-30",
+      "weekday": "Sa",
       "region": "BE/SO",
-      "code": "T",
-      "name": "84. Berner Team OL",
-      "organizer": "ol.biel.seeland / BOLV",
-      "location": "Magglingen",
-      "distance": "",
+      "code": "*",
+      "name": "21. biel.seeland OL (Schlusslauf NWM BE/",
+      "organizer": "ol.biel.seeland",
+      "location": "Ins",
+      "distance": "S",
       "terrain": "wald",
-      "lat": 47.140377044677734,
-      "lon": 7.206460952758789,
+      "lat": 47.00224685668945,
+      "lon": 7.10793924331665,
       "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13423"
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13424"
     },
     {
       "uid": "13709",
@@ -2082,6 +2082,22 @@
       "lon": 8.412803649902344,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13731"
+    },
+    {
+      "uid": "13423",
+      "date": "2027-10-31",
+      "weekday": "So",
+      "region": "BE/SO",
+      "code": "T",
+      "name": "84. Berner Team OL",
+      "organizer": "ol.biel.seeland / BOLV",
+      "location": "Schaltenrain",
+      "distance": "",
+      "terrain": "wald",
+      "lat": 47.33314895629883,
+      "lon": 7.551296234130859,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13423"
     },
     {
       "uid": "13807",
