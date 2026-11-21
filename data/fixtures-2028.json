@@ -1,7 +1,7 @@
 {
   "year": "2028",
-  "count": 52,
-  "generated_at": "2026-11-20T12:18:03+00:00",
+  "count": 53,
+  "generated_at": "2026-11-21T11:53:06+00:00",
   "events": [
     {
       "uid": "13813",
@@ -242,6 +242,22 @@
       "lon": 7.696105480194092,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13846"
+    },
+    {
+      "uid": "13876",
+      "date": "2028-04-16",
+      "weekday": "So",
+      "region": "BE/SO",
+      "code": "S",
+      "name": "49. Osterstaffel",
+      "organizer": "OLG Skandia",
+      "location": "Blasenfluh",
+      "distance": "M",
+      "terrain": "wald",
+      "lat": 46.93202590942383,
+      "lon": 7.696105480194092,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13876"
     },
     {
       "uid": "13779",
