@@ -1,7 +1,7 @@
 {
   "year": "2027",
   "count": 137,
-  "generated_at": "2026-11-21T11:53:06+00:00",
+  "generated_at": "2026-11-22T12:05:40+00:00",
   "events": [
     {
       "uid": "13685",
@@ -1134,9 +1134,9 @@
       "location": "Säli",
       "distance": "",
       "terrain": "wald",
-      "lat": 47.334739685058594,
-      "lon": 7.919100284576416,
-      "coord_source": "approx",
+      "lat": 47.32971596360415,
+      "lon": 7.906294226153729,
+      "coord_source": "exact",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13613"
     },
     {
