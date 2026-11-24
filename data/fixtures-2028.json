@@ -1,7 +1,7 @@
 {
   "year": "2028",
-  "count": 53,
-  "generated_at": "2026-11-23T13:46:34+00:00",
+  "count": 56,
+  "generated_at": "2026-11-24T14:22:34+00:00",
   "events": [
     {
       "uid": "13813",
@@ -66,6 +66,22 @@
       "lon": 7.536828994750977,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13783"
+    },
+    {
+      "uid": "13877",
+      "date": "2028-02-20",
+      "weekday": "So",
+      "region": "NWS",
+      "code": "*",
+      "name": "Basler Einzel-OL",
+      "organizer": "OLG Basel",
+      "location": "Rheinfelderberg",
+      "distance": "L",
+      "terrain": "wald",
+      "lat": 47.5599479675293,
+      "lon": 7.81551456451416,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13877"
     },
     {
       "uid": "13814",
@@ -265,7 +281,7 @@
       "weekday": "Sa",
       "region": "NWS",
       "code": "*",
-      "name": "Rhine-O-Fest",
+      "name": "Rhine-O-Festival",
       "organizer": "OLG Kakowa",
       "location": "Augusta Raurica",
       "distance": "S",
@@ -274,22 +290,6 @@
       "lon": 7.719374656677246,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13779"
-    },
-    {
-      "uid": "13780",
-      "date": "2028-04-30",
-      "weekday": "So",
-      "region": "NWS",
-      "code": "*",
-      "name": "Rhine-O-Fest",
-      "organizer": "OLG Basel",
-      "location": "Basel City",
-      "distance": "S",
-      "terrain": "stadt",
-      "lat": 47.547813415527344,
-      "lon": 7.6145734786987305,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13780"
     },
     {
       "uid": "13838",
@@ -308,12 +308,28 @@
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13838"
     },
     {
+      "uid": "13780",
+      "date": "2028-04-30",
+      "weekday": "So",
+      "region": "NWS",
+      "code": "*",
+      "name": "Rhine-O-Festival",
+      "organizer": "OLG Basel",
+      "location": "Basel City",
+      "distance": "S",
+      "terrain": "stadt",
+      "lat": 47.547813415527344,
+      "lon": 7.6145734786987305,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13780"
+    },
+    {
       "uid": "13781",
       "date": "2028-05-01",
       "weekday": "Mo",
       "region": "NWS",
       "code": "*",
-      "name": "Rhine-O-Fest",
+      "name": "Rhine-O-Festival",
       "organizer": "ROLV NWS",
       "location": "Dreispitz",
       "distance": "S",
@@ -580,6 +596,22 @@
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13841"
     },
     {
+      "uid": "13878",
+      "date": "2028-08-27",
+      "weekday": "So",
+      "region": "NWS",
+      "code": "",
+      "name": "Basler Sommer-OL",
+      "organizer": "OLG Basel",
+      "location": "Chrischona",
+      "distance": "L",
+      "terrain": "wald",
+      "lat": 47.57282638549805,
+      "lon": 7.680149078369141,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13878"
+    },
+    {
       "uid": "13768",
       "date": "2028-09-03",
       "weekday": "So",
@@ -754,6 +786,22 @@
       "lon": 7.495543003082275,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13785"
+    },
+    {
+      "uid": "13882",
+      "date": "2028-10-29",
+      "weekday": "So",
+      "region": "NWS",
+      "code": "T",
+      "name": "76. Baselbieter Team-OL",
+      "organizer": "Sportamt Baselland",
+      "location": "Bruderholz",
+      "distance": "M",
+      "terrain": "wald",
+      "lat": 47.5272102355957,
+      "lon": 7.583661079406738,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13882"
     },
     {
       "uid": "13815",

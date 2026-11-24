@@ -1,7 +1,7 @@
 {
   "year": "2027",
-  "count": 137,
-  "generated_at": "2026-11-23T13:46:34+00:00",
+  "count": 138,
+  "generated_at": "2026-11-24T14:22:34+00:00",
   "events": [
     {
       "uid": "13685",
@@ -2050,6 +2050,22 @@
       "lon": 7.10793924331665,
       "coord_source": "approx",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13424"
+    },
+    {
+      "uid": "13883",
+      "date": "2027-10-30",
+      "weekday": "Sa",
+      "region": "ZS",
+      "code": "",
+      "name": "ZJOM-Schlusslauf",
+      "organizer": "OLG Goldau",
+      "location": "Dorf Schwyz",
+      "distance": "",
+      "terrain": "stadt",
+      "lat": 44.89004402889296,
+      "lon": -0.16169418306190594,
+      "coord_source": "exact",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13883"
     },
     {
       "uid": "13709",
