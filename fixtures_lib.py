@@ -7,6 +7,7 @@ import html
 import json
 import math
 import re
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -16,6 +17,12 @@ SOURCE_URL = "https://o-l.ch/cgi-bin/fixtures"
 DETAIL_URL = "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id={uid}"
 GEOCODE_URL = "https://api3.geo.admin.ch/rest/services/api/SearchServer"
 GEOCODE_CACHE_FILE = Path(__file__).parent / "geocode-cache.json"
+OMAP_LIST_URL = "https://omap.ch/list.php?lang="
+OMAP_DETAIL_URL = "https://omap.ch/map_detail.php?lang=&idm={id}"
+OMAP_FILE = Path(__file__).parent / "omap-maps.json"
+# Grobe Bounding-Box CH+FL, um offensichtlich falsche Kartenmitten aus omap.ch
+# (gibt es vereinzelt, z.B. lat 19 oder lon -19) zu verwerfen.
+CH_BBOX = (45.7, 47.9, 5.8, 10.6)
 
 # Grobe Zentren pro OL-Region + Toleranzradius (km), um offensichtlich falsche
 # Geocoding-Treffer zu verwerfen (z.B. ein gleichnamiger Ort im falschen Kanton).
@@ -132,6 +139,93 @@ def geocode_location(location, region, cache):
     return result
 
 
+def fetch_omap_maps():
+    """Holt die komplette Kartenliste von omap.ch. Die Listenseite enthaelt pro
+    Karte bereits einen Link map.php#<zoom>/<lat>/<lon> mit der Kartenmitte
+    (derselbe Punkt wie 'Kartenmitte East/Nord' auf der Detailseite), daher
+    reicht ein einziger Request."""
+    req = urllib.request.Request(OMAP_LIST_URL, headers={"User-Agent": "Mozilla/5.0 (ol-termine-viewer)"})
+    with urllib.request.urlopen(req, timeout=60) as resp:
+        raw = resp.read().decode("utf-8", errors="replace")
+
+    def text(cell):
+        return html.unescape(re.sub(r"<[^>]+>", "", cell)).strip()
+
+    lat_min, lat_max, lon_min, lon_max = CH_BBOX
+    maps = []
+    for row in re.findall(r"<tr>(.*?)</tr>", raw, re.S):
+        cells = re.findall(r"<td[^>]*>(.*?)</td>", row, re.S)
+        if len(cells) < 11:
+            continue
+        m = re.search(r"map\.php#\d+/([\-\d.]+)/([\-\d.]+)", cells[1])
+        if not m:
+            continue
+        lat, lon = float(m.group(1)), float(m.group(2))
+        if not (lat_min < lat < lat_max and lon_min < lon < lon_max):
+            continue
+        maps.append({
+            "id": text(cells[0]),
+            "name": text(cells[2]),
+            "category": text(cells[3]),
+            "club": text(cells[4]),
+            "scale": text(cells[6]),
+            "year": text(cells[10]) or text(cells[8]),
+            "lat": round(lat, 6),
+            "lon": round(lon, 6),
+        })
+    maps.sort(key=lambda x: (x["name"].lower(), x["id"]))
+    return maps
+
+
+def normalize_map_name(name):
+    """Kleinbuchstaben, ohne Akzente/Umlaute-Punkte, ohne Klammerzusaetze und
+    Satzzeichen, damit z.B. 'Malleray/Bévilard' == 'Malleray-Bevilard'."""
+    s = unicodedata.normalize("NFKD", name.lower())
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    s = re.sub(r"\([^)]*\)", "", s)
+    return re.sub(r"[^a-z0-9]+", " ", s).strip()
+
+
+def load_omap_index():
+    """Index normalisierter Kartenname -> Liste von Karten aus omap-maps.json."""
+    if not OMAP_FILE.is_file():
+        return {}
+    try:
+        maps = json.loads(OMAP_FILE.read_text()).get("maps", [])
+    except (json.JSONDecodeError, OSError):
+        return {}
+    index = {}
+    for m in maps:
+        index.setdefault(normalize_map_name(m["name"]), []).append(m)
+    return index
+
+
+def omap_lookup(location, region, index):
+    """Sucht die OL-Karte zum Ortsfeld eines Termins (dort steht meist der
+    Kartenname). Erst der ganze Name, dann Teile davon (getrennt durch / - ,).
+    Treffer muessen in der Naehe der Region liegen; bei mehreren gewinnt der
+    naechstgelegene. Gibt die Karte (dict) oder None zurueck."""
+    centroid = REGION_CENTROID.get(region)
+    if not location or not centroid or not index:
+        return None
+    clat, clon, max_km = centroid
+
+    cleaned = clean_location_for_geocoding(location)
+    candidates = [cleaned] + [p for p in re.split(r"\s*[/,]\s*|\s+-\s+|-", cleaned) if p != cleaned]
+    for cand in candidates:
+        key = normalize_map_name(cand)
+        if len(key) < 4:
+            continue
+        hits = [
+            (haversine_km(clat, clon, m["lat"], m["lon"]), m)
+            for m in index.get(key, [])
+        ]
+        hits = [h for h in hits if h[0] <= max_km]
+        if hits:
+            return min(hits, key=lambda h: h[0])[1]
+    return None
+
+
 def parse_coords(mapurl):
     m = re.search(r"map\.search\.ch/([\-\d.]+),([\-\d.]+)", mapurl)
     if not m:
@@ -210,6 +304,17 @@ def fetch_fixtures(year, geocode=True):
         event = parse_line(decoded, year)
         if event:
             events.append(event)
+
+    # Fehlen Koordinaten, steht im Ortsfeld meist der Name der OL-Karte ->
+    # Kartenmitte aus omap-maps.json ist genauer als eine Ortsnamensuche.
+    omap_index = load_omap_index()
+    for event in events:
+        if event["lat"] is None:
+            omap = omap_lookup(event["location"], event["region"], omap_index)
+            if omap:
+                event["lat"], event["lon"], event["coord_source"] = omap["lat"], omap["lon"], "omap"
+                event["omap_name"] = omap["name"]
+                event["omap_url"] = OMAP_DETAIL_URL.format(id=omap["id"])
 
     if geocode:
         cache = load_geocode_cache()

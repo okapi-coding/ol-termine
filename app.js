@@ -274,7 +274,8 @@ function buildRow(ev) {
   if (ev.lat != null && ev.lon != null) {
     const mapBtn = document.createElement("button");
     mapBtn.className = "small";
-    mapBtn.textContent = ev.coord_source === "approx" ? "Karte (≈Ort)" : "Karte";
+    mapBtn.textContent =
+      ev.coord_source === "approx" ? "Karte (≈Ort)" : ev.coord_source === "omap" ? "Karte (≈OL-Karte)" : "Karte";
     mapBtn.addEventListener("click", () => showOnMap(ev, tr));
     mapCell.appendChild(mapBtn);
   } else if (ev.location) {
@@ -306,7 +307,9 @@ function showOnMap(ev, row) {
   mapHint.textContent =
     ev.coord_source === "approx"
       ? `${ev.location}, ${ev.region} — Position anhand des Ortsnamens geschätzt (o-l.ch liefert hier keine Koordinaten), kann deutlich abweichen.`
-      : `${ev.location}, ${ev.region} — Koordinaten aus o-l.ch, Position kann leicht abweichen.`;
+      : ev.coord_source === "omap"
+        ? `${ev.location}, ${ev.region} — Kartenmitte der OL-Karte "${ev.omap_name}" laut omap.ch (o-l.ch liefert hier keine Koordinaten).`
+        : `${ev.location}, ${ev.region} — Koordinaten aus o-l.ch, Position kann leicht abweichen.`;
 }
 
 function showOnMapByName(ev, row) {

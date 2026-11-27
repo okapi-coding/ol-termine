@@ -1,7 +1,7 @@
 {
   "year": "2027",
   "count": 139,
-  "generated_at": "2026-11-27T13:15:38+00:00",
+  "generated_at": "2026-11-27T22:08:58+00:00",
   "events": [
     {
       "uid": "13685",
@@ -30,10 +30,12 @@
       "location": "Bassersdorf",
       "distance": "",
       "terrain": "stadt",
-      "lat": 47.44012451171875,
-      "lon": 8.62594223022461,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13664"
+      "lat": 47.43964,
+      "lon": 8.631778,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13664",
+      "omap_name": "Bassersdorf",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1590"
     },
     {
       "uid": "13735",
@@ -110,10 +112,12 @@
       "location": "Allschwilerwald",
       "distance": "L",
       "terrain": "wald",
-      "lat": 47.54563903808594,
-      "lon": 7.536828994750977,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13463"
+      "lat": 47.517705,
+      "lon": 7.531556,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13463",
+      "omap_name": "Allschwilerwald",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=348"
     },
     {
       "uid": "13690",
@@ -174,10 +178,12 @@
       "location": "Riehen",
       "distance": "",
       "terrain": "stadt",
-      "lat": 47.58074951171875,
-      "lon": 7.65354061126709,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13462"
+      "lat": 47.57151,
+      "lon": 7.651257,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13462",
+      "omap_name": "Riehen",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=349"
     },
     {
       "uid": "13563",
@@ -238,10 +244,12 @@
       "location": "Gentilino",
       "distance": "S",
       "terrain": "stadt",
-      "lat": 45.99152374267578,
-      "lon": 8.930952072143555,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13719"
+      "lat": 45.99246,
+      "lon": 8.932254,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13719",
+      "omap_name": "Gentilino",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1020389"
     },
     {
       "uid": "13703",
@@ -302,10 +310,12 @@
       "location": "Biasca",
       "distance": "S",
       "terrain": "stadt",
-      "lat": 46.362525939941406,
-      "lon": 9.027430534362793,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13711"
+      "lat": 46.360542,
+      "lon": 8.96934,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13711",
+      "omap_name": "Biasca",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1324"
     },
     {
       "uid": "13804",
@@ -318,10 +328,12 @@
       "location": "Weinfelden",
       "distance": "",
       "terrain": "unbekannt",
-      "lat": 47.56858444213867,
-      "lon": 9.105485916137695,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13804"
+      "lat": 47.568609,
+      "lon": 9.11316,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13804",
+      "omap_name": "Weinfelden",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=143"
     },
     {
       "uid": "13433",
@@ -350,10 +362,12 @@
       "location": "Aurigeno",
       "distance": "M",
       "terrain": "wald",
-      "lat": 46.230037689208984,
-      "lon": 8.714423179626465,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13712"
+      "lat": 46.23223,
+      "lon": 8.724589,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13712",
+      "omap_name": "Aurigeno",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1244"
     },
     {
       "uid": "13504",
@@ -366,10 +380,12 @@
       "location": "Baldegg-Horn",
       "distance": "",
       "terrain": "wald",
-      "lat": 47.18485641479492,
-      "lon": 8.280460357666016,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13504"
+      "lat": 47.469759,
+      "lon": 8.274288,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13504",
+      "omap_name": "Baldegg-Horn",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1364"
     },
     {
       "uid": "13436",
@@ -382,10 +398,12 @@
       "location": "Ballenberg",
       "distance": "M",
       "terrain": "wald",
-      "lat": 46.7480583190918,
-      "lon": 8.078795433044434,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13436"
+      "lat": 46.751389,
+      "lon": 8.079928,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13436",
+      "omap_name": "Ballenberg",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1088"
     },
     {
       "uid": "13435",
@@ -398,10 +416,12 @@
       "location": "Ballenberg",
       "distance": "M",
       "terrain": "wald",
-      "lat": 46.7480583190918,
-      "lon": 8.078795433044434,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13435"
+      "lat": 46.751389,
+      "lon": 8.079928,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13435",
+      "omap_name": "Ballenberg",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1088"
     },
     {
       "uid": "13464",
@@ -430,10 +450,12 @@
       "location": "Weisslingen-Kyburg",
       "distance": "L",
       "terrain": "wald",
-      "lat": 47.43544387817383,
-      "lon": 8.755481719970703,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13659"
+      "lat": 47.429355,
+      "lon": 8.750851,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13659",
+      "omap_name": "Weisslingen-Kyburg",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1001"
     },
     {
       "uid": "13383",
@@ -446,10 +468,12 @@
       "location": "Lind / Birch",
       "distance": "M",
       "terrain": "wald",
-      "lat": 47.429931640625,
-      "lon": 8.662541389465332,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13383"
+      "lat": 47.400666,
+      "lon": 8.195384,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13383",
+      "omap_name": "Lind",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1020001"
     },
     {
       "uid": "13384",
@@ -462,10 +486,12 @@
       "location": "Rietenberg",
       "distance": "L",
       "terrain": "wald",
-      "lat": 47.34905242919922,
-      "lon": 8.211372375488281,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13384"
+      "lat": 47.344218,
+      "lon": 8.219387,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13384",
+      "omap_name": "Rietenberg",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=642"
     },
     {
       "uid": "13437",
@@ -478,10 +504,12 @@
       "location": "Schönenwasen",
       "distance": "",
       "terrain": "wald",
-      "lat": 46.917354583740234,
-      "lon": 7.652972221374512,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13437"
+      "lat": 46.914911,
+      "lon": 7.64867,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13437",
+      "omap_name": "Schönenwasen",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1430"
     },
     {
       "uid": "13575",
@@ -510,10 +538,12 @@
       "location": "Les Breuleux",
       "distance": "",
       "terrain": "wald",
-      "lat": 47.211856842041016,
-      "lon": 7.008586406707764,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13438"
+      "lat": 47.192103,
+      "lon": 6.989515,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13438",
+      "omap_name": "Les Breuleux",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1020285"
     },
     {
       "uid": "13704",
@@ -526,10 +556,12 @@
       "location": "Ottenberg Ost-Nord",
       "distance": "",
       "terrain": "wald",
-      "lat": 47.12588119506836,
-      "lon": 9.089834213256836,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13704"
+      "lat": 47.130431,
+      "lon": 8.748085,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13704",
+      "omap_name": "Nord",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=s101054"
     },
     {
       "uid": "13850",
@@ -542,10 +574,12 @@
       "location": "Längholz",
       "distance": "",
       "terrain": "wald",
-      "lat": 47.135765075683594,
-      "lon": 7.289216041564941,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13850"
+      "lat": 47.283071,
+      "lon": 7.874818,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13850",
+      "omap_name": "Langholz",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=269"
     },
     {
       "uid": "13439",
@@ -606,10 +640,12 @@
       "location": "Eggen",
       "distance": "",
       "terrain": "wald",
-      "lat": 47.48658752441406,
-      "lon": 9.331055641174316,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13705"
+      "lat": 47.402178,
+      "lon": 9.399448,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13705",
+      "omap_name": "Eggen",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1169"
     },
     {
       "uid": "13714",
@@ -622,10 +658,12 @@
       "location": "Novaggio",
       "distance": "M",
       "terrain": "wald",
-      "lat": 46.0095100402832,
-      "lon": 8.855171203613281,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13714"
+      "lat": 46.020171,
+      "lon": 8.852615,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13714",
+      "omap_name": "Novaggio",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1195"
     },
     {
       "uid": "13671",
@@ -638,10 +676,12 @@
       "location": "Montagne de Lussy",
       "distance": "",
       "terrain": "wald",
-      "lat": 46.7290153503418,
-      "lon": 6.933228969573975,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13671"
+      "lat": 46.729552,
+      "lon": 6.928429,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13671",
+      "omap_name": "Montagne de Lussy",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1406"
     },
     {
       "uid": "13686",
@@ -654,10 +694,12 @@
       "location": "Liebegg Süd",
       "distance": "M",
       "terrain": "wald",
-      "lat": null,
-      "lon": null,
-      "coord_source": null,
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13686"
+      "lat": 47.34027,
+      "lon": 8.133317,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13686",
+      "omap_name": "Liebegg Süd",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1126"
     },
     {
       "uid": "13715",
@@ -766,10 +808,12 @@
       "location": "Lausen",
       "distance": "",
       "terrain": "mix",
-      "lat": 47.470794677734375,
-      "lon": 7.762155532836914,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13739"
+      "lat": 47.472336,
+      "lon": 7.756982,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13739",
+      "omap_name": "Lausen",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=473"
     },
     {
       "uid": "13745",
@@ -862,10 +906,12 @@
       "location": "Malleray/Bévilard",
       "distance": "",
       "terrain": "wald",
-      "lat": 47.238014221191406,
-      "lon": 7.276197910308838,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13679"
+      "lat": 47.220801,
+      "lon": 7.266996,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13679",
+      "omap_name": "Malleray-Bévilard",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=828"
     },
     {
       "uid": "13680",
@@ -878,10 +924,12 @@
       "location": "Malleray/Bévilard",
       "distance": "",
       "terrain": "wald",
-      "lat": 47.238014221191406,
-      "lon": 7.276197910308838,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13680"
+      "lat": 47.220801,
+      "lon": 7.266996,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13680",
+      "omap_name": "Malleray-Bévilard",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=828"
     },
     {
       "uid": "13717",
@@ -894,10 +942,12 @@
       "location": "Giubiasco, Monte Carasso",
       "distance": "S",
       "terrain": "stadt",
-      "lat": 46.18804168701172,
-      "lon": 8.999231338500977,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13717"
+      "lat": 46.186931,
+      "lon": 8.999439,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13717",
+      "omap_name": "Monte Carasso",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1320"
     },
     {
       "uid": "13681",
@@ -910,10 +960,12 @@
       "location": "Malleray/Bévilard",
       "distance": "",
       "terrain": "wald",
-      "lat": 47.238014221191406,
-      "lon": 7.276197910308838,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13681"
+      "lat": 47.220801,
+      "lon": 7.266996,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13681",
+      "omap_name": "Malleray-Bévilard",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=828"
     },
     {
       "uid": "13825",
@@ -926,10 +978,12 @@
       "location": "Gibelegg",
       "distance": "M",
       "terrain": "wald",
-      "lat": 46.765472412109375,
-      "lon": 7.6675262451171875,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13825"
+      "lat": 46.789168,
+      "lon": 7.438635,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13825",
+      "omap_name": "Gibelegg",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1144"
     },
     {
       "uid": "13385",
@@ -942,10 +996,12 @@
       "location": "Oberrieden",
       "distance": "S",
       "terrain": "stadt",
-      "lat": 47.27294158935547,
-      "lon": 8.569122314453125,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13385"
+      "lat": 47.269301,
+      "lon": 8.575109,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13385",
+      "omap_name": "Oberrieden",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=616"
     },
     {
       "uid": "13386",
@@ -990,10 +1046,12 @@
       "location": "Arlesheim",
       "distance": "S",
       "terrain": "stadt",
-      "lat": 47.496482849121094,
-      "lon": 7.628008842468262,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13509"
+      "lat": 47.499606,
+      "lon": 7.624427,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13509",
+      "omap_name": "Arlesheim",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=688"
     },
     {
       "uid": "13606",
@@ -1006,10 +1064,12 @@
       "location": "Oftringen Dorf",
       "distance": "",
       "terrain": "stadt",
-      "lat": 47.317535400390625,
-      "lon": 7.922994136810303,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13606"
+      "lat": 47.317964,
+      "lon": 7.921396,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13606",
+      "omap_name": "Oftringen Dorf",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1427"
     },
     {
       "uid": "13718",
@@ -1038,10 +1098,12 @@
       "location": "Lugano-Cassarate",
       "distance": "S",
       "terrain": "stadt",
-      "lat": 46.00739669799805,
-      "lon": 8.965677261352539,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13721"
+      "lat": 46.010593,
+      "lon": 8.965996,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13721",
+      "omap_name": "Lugano-Cassarate",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=885"
     },
     {
       "uid": "13652",
@@ -1102,10 +1164,12 @@
       "location": "Zeinigerberg",
       "distance": "L",
       "terrain": "wald",
-      "lat": 47.54082107543945,
-      "lon": 7.890786170959473,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13571"
+      "lat": 47.543846,
+      "lon": 7.890239,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13571",
+      "omap_name": "Zeinigerberg",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1379"
     },
     {
       "uid": "13852",
@@ -1150,10 +1214,12 @@
       "location": "Münsingen",
       "distance": "S",
       "terrain": "stadt",
-      "lat": 46.88322448730469,
-      "lon": 7.565205097198486,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13849"
+      "lat": 46.874563,
+      "lon": 7.556691,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13849",
+      "omap_name": "Münsingen",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1297"
     },
     {
       "uid": "13614",
@@ -1166,10 +1232,12 @@
       "location": "Langenthal Hard",
       "distance": "S",
       "terrain": "stadt",
-      "lat": 47.22241973876953,
-      "lon": 7.770267486572266,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13614"
+      "lat": 47.220441,
+      "lon": 7.775289,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13614",
+      "omap_name": "Langenthal Hard",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1384"
     },
     {
       "uid": "13578",
@@ -1310,10 +1378,12 @@
       "location": "Blattenberg",
       "distance": "",
       "terrain": "wald",
-      "lat": null,
-      "lon": null,
-      "coord_source": null,
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13615"
+      "lat": 47.13026,
+      "lon": 7.847214,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13615",
+      "omap_name": "Blattenberg",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1007"
     },
     {
       "uid": "13853",
@@ -1326,10 +1396,12 @@
       "location": "Engehalbinsel",
       "distance": "",
       "terrain": "wald",
-      "lat": 46.99012756347656,
-      "lon": 7.450732707977295,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13853"
+      "lat": 46.979441,
+      "lon": 7.454186,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13853",
+      "omap_name": "Engehalbinsel",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1020023"
     },
     {
       "uid": "13617",
@@ -1358,10 +1430,12 @@
       "location": "Kaiserstuhl",
       "distance": "S",
       "terrain": "stadt",
-      "lat": 47.56831741333008,
-      "lon": 8.418136596679688,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13408"
+      "lat": 47.56765,
+      "lon": 8.408724,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13408",
+      "omap_name": "Kaiserstuhl",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=934"
     },
     {
       "uid": "13409",
@@ -1374,10 +1448,12 @@
       "location": "Ämperg",
       "distance": "M",
       "terrain": "wald",
-      "lat": 47.559852600097656,
-      "lon": 8.457354545593262,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13409"
+      "lat": 47.5582,
+      "lon": 8.461702,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13409",
+      "omap_name": "Ämperg",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1072"
     },
     {
       "uid": "13410",
@@ -1422,10 +1498,12 @@
       "location": "Birchi",
       "distance": "",
       "terrain": "wald",
-      "lat": 46.79045867919922,
-      "lon": 7.660586833953857,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13854"
+      "lat": 47.199318,
+      "lon": 7.556631,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13854",
+      "omap_name": "Birchi",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1020091"
     },
     {
       "uid": "13720",
@@ -1454,10 +1532,12 @@
       "location": "Sängeli",
       "distance": "",
       "terrain": "wald",
-      "lat": 46.92506790161133,
-      "lon": 7.727572917938232,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13616"
+      "lat": 47.202471,
+      "lon": 7.768577,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13616",
+      "omap_name": "Sängeli",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=665"
     },
     {
       "uid": "13570",
@@ -1470,10 +1550,12 @@
       "location": "Zunzgerhard",
       "distance": "L",
       "terrain": "wald",
-      "lat": 47.44876480102539,
-      "lon": 7.786464214324951,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13570"
+      "lat": 47.445317,
+      "lon": 7.770079,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13570",
+      "omap_name": "Zunzgerhard",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=834"
     },
     {
       "uid": "13656",
@@ -1518,10 +1600,12 @@
       "location": "Selamatt",
       "distance": "L",
       "terrain": "wald",
-      "lat": 47.1826286315918,
-      "lon": 9.297778129577637,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13399"
+      "lat": 47.170136,
+      "lon": 9.28539,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13399",
+      "omap_name": "Selamatt (Alt St. Johann)",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=976"
     },
     {
       "uid": "13723",
@@ -1550,10 +1634,12 @@
       "location": "Bärefels",
       "distance": "M",
       "terrain": "wald",
-      "lat": 47.522117614746094,
-      "lon": 7.763979434967041,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13560"
+      "lat": 47.517305,
+      "lon": 7.757251,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13560",
+      "omap_name": "Bärefels",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1477"
     },
     {
       "uid": "13856",
@@ -1566,10 +1652,12 @@
       "location": "Winterswil",
       "distance": "",
       "terrain": "wald",
-      "lat": 46.95612335205078,
-      "lon": 8.405533790588379,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13856"
+      "lat": 47.023016,
+      "lon": 7.359709,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13856",
+      "omap_name": "Winterswil",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=311"
     },
     {
       "uid": "13826",
@@ -1582,10 +1670,12 @@
       "location": "Münsingen",
       "distance": "S",
       "terrain": "stadt",
-      "lat": 46.88322448730469,
-      "lon": 7.565205097198486,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13826"
+      "lat": 46.874563,
+      "lon": 7.556691,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13826",
+      "omap_name": "Münsingen",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1297"
     },
     {
       "uid": "13884",
@@ -1598,10 +1688,12 @@
       "location": "Bremgarten (Sprint)",
       "distance": "S",
       "terrain": "stadt",
-      "lat": 47.346309661865234,
-      "lon": 8.333881378173828,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13884"
+      "lat": 47.35065,
+      "lon": 8.339394,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13884",
+      "omap_name": "Bremgarten",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1020297"
     },
     {
       "uid": "13559",
@@ -1710,10 +1802,12 @@
       "location": "Bowil-Gauchern",
       "distance": "L",
       "terrain": "wald",
-      "lat": 46.88654327392578,
-      "lon": 7.7051777839660645,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13443"
+      "lat": 46.959571,
+      "lon": 7.780226,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13443",
+      "omap_name": "Bowil-Gauchern",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=298"
     },
     {
       "uid": "13698",
@@ -1806,10 +1900,12 @@
       "location": "Rheinfelderberg",
       "distance": "L",
       "terrain": "wald",
-      "lat": 47.5599479675293,
-      "lon": 7.81551456451416,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13569"
+      "lat": 47.535256,
+      "lon": 7.770639,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13569",
+      "omap_name": "Rheinfelderberg",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1526"
     },
     {
       "uid": "13724",
@@ -1822,10 +1918,12 @@
       "location": "Monti di Rima",
       "distance": "L",
       "terrain": "wald",
-      "lat": 46.18164825439453,
-      "lon": 9.051387786865234,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13724"
+      "lat": 46.383968,
+      "lon": 8.646307,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13724",
+      "omap_name": "Monti di Rima",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1020234"
     },
     {
       "uid": "13390",
@@ -1854,10 +1952,12 @@
       "location": "Fallenfluh / Gibel",
       "distance": "L",
       "terrain": "wald",
-      "lat": 47.22494888305664,
-      "lon": 8.516975402832031,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13391"
+      "lat": 46.998113,
+      "lon": 8.700859,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13391",
+      "omap_name": "Fallenfluh",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=992"
     },
     {
       "uid": "13392",
@@ -1870,10 +1970,12 @@
       "location": "Guntelsey",
       "distance": "M",
       "terrain": "wald",
-      "lat": 46.72325134277344,
-      "lon": 7.606389999389648,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13392"
+      "lat": 46.726074,
+      "lon": 7.608693,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13392",
+      "omap_name": "Guntelsey",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=446"
     },
     {
       "uid": "13393",
@@ -1886,10 +1988,12 @@
       "location": "Thun",
       "distance": "S",
       "terrain": "stadt",
-      "lat": 46.74045944213867,
-      "lon": 7.60764217376709,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13393"
+      "lat": 46.757527,
+      "lon": 7.628426,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13393",
+      "omap_name": "Thun",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=973_60"
     },
     {
       "uid": "13568",
@@ -1902,10 +2006,12 @@
       "location": "Heimeholz",
       "distance": "L",
       "terrain": "wald",
-      "lat": 47.58052444458008,
-      "lon": 7.825998783111572,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13568"
+      "lat": 47.58006,
+      "lon": 7.824086,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13568",
+      "omap_name": "Heimeholz",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1474"
     },
     {
       "uid": "13444",
@@ -1950,10 +2056,12 @@
       "location": "Sonvico-Villa",
       "distance": "M",
       "terrain": "wald",
-      "lat": null,
-      "lon": null,
-      "coord_source": null,
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13725"
+      "lat": 46.065148,
+      "lon": 9.002963,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13725",
+      "omap_name": "Sonvico",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1237_90"
     },
     {
       "uid": "13398",
@@ -1998,10 +2106,12 @@
       "location": "Nieselberg",
       "distance": "",
       "terrain": "wald",
-      "lat": 47.47348403930664,
-      "lon": 9.077625274658203,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13708"
+      "lat": 47.470268,
+      "lon": 9.070261,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13708",
+      "omap_name": "Nieselberg",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=913"
     },
     {
       "uid": "13727",
@@ -2030,10 +2140,12 @@
       "location": "Zunzgerhard",
       "distance": "",
       "terrain": "wald",
-      "lat": 47.44876480102539,
-      "lon": 7.786464214324951,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13474"
+      "lat": 47.445317,
+      "lon": 7.770079,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13474",
+      "omap_name": "Zunzgerhard",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=834"
     },
     {
       "uid": "13576",
@@ -2046,10 +2158,12 @@
       "location": "Schiltwald",
       "distance": "L",
       "terrain": "wald",
-      "lat": 47.24994659423828,
-      "lon": 8.117712020874023,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13576"
+      "lat": 47.237865,
+      "lon": 8.115509,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13576",
+      "omap_name": "Schiltwald",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1020090"
     },
     {
       "uid": "13424",
@@ -2126,10 +2240,12 @@
       "location": "Schaltenrain",
       "distance": "",
       "terrain": "wald",
-      "lat": 47.33314895629883,
-      "lon": 7.551296234130859,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13423"
+      "lat": 47.031637,
+      "lon": 7.136045,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13423",
+      "omap_name": "Schaltenrain",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=899"
     },
     {
       "uid": "13807",
@@ -2174,10 +2290,12 @@
       "location": "Hohenklingen",
       "distance": "L",
       "terrain": "wald",
-      "lat": 47.650718688964844,
-      "lon": 8.836138725280762,
-      "coord_source": "approx",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13396"
+      "lat": 47.677128,
+      "lon": 8.857282,
+      "coord_source": "omap",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13396",
+      "omap_name": "Hohenklingen",
+      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=1020237"
     },
     {
       "uid": "13810",
