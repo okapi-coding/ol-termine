@@ -1,0 +1,17 @@
+{
+  "source": "https://olvz.ch/files/dokumente/2027/JOM%202027.pdf",
+  "retrieved": "2026-11-27",
+  "events": [
+    { "uid": "13664", "date": "2027-01-10", "name": "Winter Stadt OL" },
+    { "uid": "13659", "date": "2027-03-14", "name": "Wisliger OL" },
+    { "uid": "13625", "date": "2027-04-11", "name": "Welsiker OL" },
+    { "uid": "13741", "date": "2027-04-18", "name": "Winterthurer OL" },
+    { "uid": "13669", "date": "2027-04-25", "name": "Galgener OL" },
+    { "uid": "13386", "date": "2027-05-23", "name": "SPM" },
+    { "uid": "13408", "date": "2027-08-20", "name": "Bülacher OL / 1.E. Aargauer 3-Tage OL" },
+    { "uid": "13409", "date": "2027-08-21", "name": "Rafzerfelder OL / 2.E. Aargauer 3-Tage OL" },
+    { "uid": "13656", "date": "2027-08-28", "name": "ZH Oberländer OL" },
+    { "uid": "13698", "date": "2027-09-05", "name": "Pfäffiker OL" },
+    { "uid": "13731", "date": "2027-10-31", "name": "JOM-Schlusslauf" }
+  ]
+}

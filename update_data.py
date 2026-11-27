@@ -6,7 +6,7 @@ periodisch ausgefuehrt, kann aber auch lokal laufen:
 
     python3 update_data.py
 
-Holt jeweils das Vorjahr bis zwei Jahre voraus (passend zur Jahresauswahl
+Holt jeweils das aktuelle Jahr bis das nächste Jahr (passend zur Jahresauswahl
 im Frontend), parst und geocodiert, und schreibt die Ergebnisse nach data/.
 """
 import json
@@ -22,7 +22,7 @@ DATA_DIR = Path(__file__).parent / "data"
 def main():
     DATA_DIR.mkdir(exist_ok=True)
     current_year = datetime.now().year
-    years = range(current_year - 1, current_year + 3)
+    years = range(current_year, current_year + 1) # aktuelles Jahr und nächstes Jahr
     generated_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
 
     for year in years:
