@@ -308,7 +308,7 @@ function showOnMap(ev, row) {
     ev.coord_source === "approx"
       ? `${ev.location}, ${ev.region} — Position anhand des Ortsnamens geschätzt (o-l.ch liefert hier keine Koordinaten), kann deutlich abweichen.`
       : ev.coord_source === "omap"
-        ? `${ev.location}, ${ev.region} — Kartenmitte der OL-Karte "${ev.omap_name}" laut omap.ch (o-l.ch liefert hier keine Koordinaten).`
+        ? `${ev.location}, ${ev.region} — Kartenmitte der OL-Karte "${ev.omap_name}" laut omap.ch (bei mehreren Karten deren Mittelpunkt) (o-l.ch liefert hier keine Koordinaten).`
         : `${ev.location}, ${ev.region} — Koordinaten aus o-l.ch, Position kann leicht abweichen.`;
 }
 

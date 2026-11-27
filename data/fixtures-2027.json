@@ -1,7 +1,7 @@
 {
   "year": "2027",
   "count": 139,
-  "generated_at": "2026-11-27T22:08:58+00:00",
+  "generated_at": "2026-11-27T22:14:22+00:00",
   "events": [
     {
       "uid": "13685",
@@ -556,12 +556,10 @@
       "location": "Ottenberg Ost-Nord",
       "distance": "",
       "terrain": "wald",
-      "lat": 47.130431,
-      "lon": 8.748085,
-      "coord_source": "omap",
-      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13704",
-      "omap_name": "Nord",
-      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=s101054"
+      "lat": 47.12588119506836,
+      "lon": 9.089834213256836,
+      "coord_source": "approx",
+      "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13704"
     },
     {
       "uid": "13850",
@@ -1952,12 +1950,11 @@
       "location": "Fallenfluh / Gibel",
       "distance": "L",
       "terrain": "wald",
-      "lat": 46.998113,
-      "lon": 8.700859,
+      "lat": 47.000204,
+      "lon": 8.686886,
       "coord_source": "omap",
       "detail_url": "https://o-l.ch/cgi-bin/fixtures?mode=show&unique_id=13391",
-      "omap_name": "Fallenfluh",
-      "omap_url": "https://omap.ch/map_detail.php?lang=&idm=992"
+      "omap_name": "Fallenfluh + Gibel"
     },
     {
       "uid": "13392",

@@ -23,6 +23,15 @@ OMAP_FILE = Path(__file__).parent / "omap-maps.json"
 # Grobe Bounding-Box CH+FL, um offensichtlich falsche Kartenmitten aus omap.ch
 # (gibt es vereinzelt, z.B. lat 19 oder lon -19) zu verwerfen.
 CH_BBOX = (45.7, 47.9, 5.8, 10.6)
+# Max. Abstand, damit mehrere Karten eines Gebiets ('A / B') gemittelt werden.
+MULTI_MAP_MAX_KM = 15
+# Namensteile, die allein nichts ueber das Gebiet aussagen (z.B. 'Ottenberg
+# Ost-Nord' darf nicht auf eine Karte namens 'Nord' irgendwo in der Region fallen).
+GENERIC_PARTS = {
+    "nord", "sud", "sued", "ost", "west", "nordost", "nordwest", "sudost", "sudwest",
+    "nord ost", "nord west", "sud ost", "sud west", "est", "ouest", "nord est",
+    "dorf", "stadt", "wald", "village", "ville", "centre", "zentrum", "mitte",
+}
 
 # Grobe Zentren pro OL-Region + Toleranzradius (km), um offensichtlich falsche
 # Geocoding-Treffer zu verwerfen (z.B. ein gleichnamiger Ort im falschen Kanton).
@@ -203,27 +212,48 @@ def load_omap_index():
 def omap_lookup(location, region, index):
     """Sucht die OL-Karte zum Ortsfeld eines Termins (dort steht meist der
     Kartenname). Erst der ganze Name, dann Teile davon (getrennt durch / - ,).
-    Treffer muessen in der Naehe der Region liegen; bei mehreren gewinnt der
-    naechstgelegene. Gibt die Karte (dict) oder None zurueck."""
+    Treffer muessen in der Naehe der Region liegen; bei mehreren gleichnamigen
+    gewinnt die naechstgelegene. Finden mehrere Teile je eine Karte und liegen
+    diese nahe beieinander (z.B. 'Fallenfluh / Gibel'), wird ihr Mittelpunkt
+    genommen. Gibt ein dict mit name/lat/lon/id (id nur bei genau einer Karte)
+    oder None zurueck."""
     centroid = REGION_CENTROID.get(region)
     if not location or not centroid or not index:
         return None
     clat, clon, max_km = centroid
 
-    cleaned = clean_location_for_geocoding(location)
-    candidates = [cleaned] + [p for p in re.split(r"\s*[/,]\s*|\s+-\s+|-", cleaned) if p != cleaned]
-    for cand in candidates:
-        key = normalize_map_name(cand)
+    def best(name):
+        key = normalize_map_name(name)
         if len(key) < 4:
-            continue
-        hits = [
-            (haversine_km(clat, clon, m["lat"], m["lon"]), m)
-            for m in index.get(key, [])
-        ]
+            return None
+        hits = [(haversine_km(clat, clon, m["lat"], m["lon"]), m) for m in index.get(key, [])]
         hits = [h for h in hits if h[0] <= max_km]
-        if hits:
-            return min(hits, key=lambda h: h[0])[1]
-    return None
+        return min(hits, key=lambda h: h[0])[1] if hits else None
+
+    cleaned = clean_location_for_geocoding(location)
+    whole = best(cleaned)
+    if whole:
+        return whole
+
+    found = []
+    for part in re.split(r"\s*[/,]\s*|\s+-\s+|-", cleaned):
+        if normalize_map_name(part) in GENERIC_PARTS:
+            continue
+        m = best(part)
+        if m and m not in found:
+            found.append(m)
+    if not found:
+        return None
+    first = found[0]
+    group = [m for m in found if haversine_km(first["lat"], first["lon"], m["lat"], m["lon"]) <= MULTI_MAP_MAX_KM]
+    if len(group) == 1:
+        return first
+    return {
+        "id": None,
+        "name": " + ".join(m["name"] for m in group),
+        "lat": round(sum(m["lat"] for m in group) / len(group), 6),
+        "lon": round(sum(m["lon"] for m in group) / len(group), 6),
+    }
 
 
 def parse_coords(mapurl):
@@ -314,7 +344,8 @@ def fetch_fixtures(year, geocode=True):
             if omap:
                 event["lat"], event["lon"], event["coord_source"] = omap["lat"], omap["lon"], "omap"
                 event["omap_name"] = omap["name"]
-                event["omap_url"] = OMAP_DETAIL_URL.format(id=omap["id"])
+                if omap["id"]:
+                    event["omap_url"] = OMAP_DETAIL_URL.format(id=omap["id"])
 
     if geocode:
         cache = load_geocode_cache()
